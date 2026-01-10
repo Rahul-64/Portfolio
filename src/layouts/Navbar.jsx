@@ -7,7 +7,7 @@ const navlink = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
-  
+ 
 ];
 
 export const Navbar = () => {
@@ -20,9 +20,9 @@ export const Navbar = () => {
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className="text-5xl font-bold tracking-tight hover:text-primary"
+          className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          R <span className="text-primary">.</span>
+          RK <span className="text-primary">.</span>
         </a>
 
 
@@ -54,7 +54,27 @@ export const Navbar = () => {
         </button>
       </nav>
 
-        
+        {isMobilemenuOpen && <div className="md:hidden glass-strong">
+            <div className="container mx-auto px-6 py-6 flex flex-col gap-4 animate-fade-in">
+                {navlink.map((link, index) => (
+              <a
+                href={link.href}
+                key={index}
+                className="text-lg text-muted-foreground hover:text-foreground py-2"
+              >
+             
+                {link.label}
+              </a>
+            ))}
+
+            <Button >
+              <div className="p-2">
+              <a href="#contact">Contact Me</a>
+
+              </div>
+            </Button>
+            </div>
+        </div>}
 
     </header>
   );
