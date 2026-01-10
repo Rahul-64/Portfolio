@@ -49,30 +49,22 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I’m a computer science undergraduate with a strong interest in
+                full-stack web development. I enjoy turning ideas into working
+                applications using modern technologies and best practices.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                I’ve built projects using React, Node.js, MySQL, and MongoDB,
+                focusing on performance, security, and user experience. Outside
+                of development, I continuously learn, experiment, and refine my
+                skills to become a better engineer.
               </p>
-              <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
-              </p>
+             
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I strive to build software that’s easy to use, easy to maintain, and meaningful in real-world use."
               </p>
             </div>
           </div>
