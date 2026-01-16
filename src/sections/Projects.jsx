@@ -2,13 +2,22 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Forever",
+    title: "AI Video Course Generator (SaaS)",
     description:
-      "Forever is a MERN-based e-commerce platform with secure user authentication, efficient product management, and optimized image handling. It delivers a responsive and seamless shopping experience.",
-    image: "/Foreverproj1.png",
-    tags: ["React", "Javacript", "NodeJS" , "MongoDB"],
-    link: "https://e-commerce-frontend-two-sand.vercel.app/",
-    github: "https://github.com/Rahul-64/E-commerce-master",
+      "A full-stack SaaS application that allows users to generate structured educational video courses using AI. Built with Next.js and TypeScript, featuring secure authentication, scalable cloud infrastructure, and AI-driven content generation.",
+    image: "/vidiora.png",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "SaaS",
+      "AI",
+      "PostgreSQL",
+      "Neon",
+      "Azure",
+      "Clerk",
+    ],
+    link: "https://github.com/Rahul-64/vidiora.ai",
+    github: "https://github.com/Rahul-64/vidiora.ai",
   },
   {
     title: "Cinesphere",
@@ -20,6 +29,15 @@ const projects = [
     github: "https://github.com/Rahul-64/movie-ticket-reservation-main",
   },
   {
+    title: "Forever",
+    description:
+      "Forever is a MERN-based e-commerce platform with secure user authentication, efficient product management, and optimized image handling. It delivers a responsive and seamless shopping experience.",
+    image: "/Foreverproj1.png",
+    tags: ["React", "Javacript", "NodeJS", "MongoDB"],
+    link: "https://e-commerce-frontend-two-sand.vercel.app/",
+    github: "https://github.com/Rahul-64/E-commerce-master",
+  },
+  {
     title: "Sorting Visualiser",
     description:
       "This sorting visualizer uses React and JavaScript to make sorting algorithms easier to understand. It shows real-time visual comparisons of algorithm operations.",
@@ -28,7 +46,6 @@ const projects = [
     link: "https://sorting-visualiser-master.vercel.app/",
     github: "https://github.com/Rahul-64/Sorting-Visualiser-master",
   },
- 
 ];
 
 export const Projects = () => {
@@ -81,14 +98,16 @@ export const Projects = () => {
                   <a
                     href={project.link}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
                   <a
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Github className="w-5 h-5" />
                   </a>
@@ -129,7 +148,9 @@ export const Projects = () => {
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
           <AnimatedBorderButton>
-            <a href="https://github.com/Rahul-64" target="_blank">View all project</a>
+            <a href="https://github.com/Rahul-64" target="_blank">
+              View all project
+            </a>
             <ArrowUpRight className="w-5 h-5" />
           </AnimatedBorderButton>
         </div>
