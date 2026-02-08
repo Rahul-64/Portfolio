@@ -98,11 +98,11 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5 animate-bounce" />
-                <a href="https://drive.google.com/file/d/115Ef3A45IPKF29UV1z3bpPfHdYI85uiM/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Download</a>
+                <a href="https://drive.google.com/file/d/1Tegtv4wF195Wkqk0Na2jyO2o2g1S4dU2/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download</a>
               </AnimatedBorderButton>
             </div>
 
-            {/* SOcial */}
+            
 
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow:</span>
