@@ -5,7 +5,7 @@ const projects = [
     title: "Rude AI ",
     description:
       "An advanced, rude, and sarcastic AI voice assistant that runs entirely in the browser. Features real-time voice interaction, interruption handling, and a premium dark UI.",
-    image: "/RudeAI.png",
+    image: "/Rudeai.png",
     tags: [
   "FastAPI",
   "Uvicorn",
@@ -13,10 +13,6 @@ const projects = [
   "LiteLLM",
   "Deepgram (Nova-2 STT)",
   "Deepgram (Aura TTS)",
-  "HTML5",
-  "CSS3",
-  "Vanilla JavaScript",
-  "Web Audio API",
   "WebSockets",
   "Render",
   "Python-dotenv",
@@ -24,8 +20,8 @@ const projects = [
   "GitHub"
 ]
 ,
-    link: "https://github.com/Rahul-64/Rude-AI",
-    github: "https://rude-ai.onrender.com/",
+    link: "https://rude-ai.onrender.com/",
+    github: "https://github.com/Rahul-64/Rude-AI",
   },
   {
     title: "CodeBox",
