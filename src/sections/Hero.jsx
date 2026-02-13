@@ -98,7 +98,7 @@ export const Hero = () => {
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5 animate-bounce" />
-                <a href="https://drive.google.com/file/d/1Tegtv4wF195Wkqk0Na2jyO2o2g1S4dU2/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download</a>
+                <a href="https://drive.google.com/file/d/1yTFWv4w7UeAhZR4NQYa-OIWLxhrSrhzx/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download</a>
               </AnimatedBorderButton>
             </div>
 

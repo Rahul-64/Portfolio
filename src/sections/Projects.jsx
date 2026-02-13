@@ -2,10 +2,36 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
-    title: "AI Video Course Generator (SaaS)",
+    title: "Rude AI ",
     description:
-      "A full-stack SaaS application that allows users to generate structured educational video courses using AI. Built with Next.js and TypeScript, featuring secure authentication, scalable cloud infrastructure, and AI-driven content generation.",
-    image: "/vidiora.png",
+      "An advanced, rude, and sarcastic AI voice assistant that runs entirely in the browser. Features real-time voice interaction, interruption handling, and a premium dark UI.",
+    image: "/RudeAI.png",
+    tags: [
+  "FastAPI",
+  "Uvicorn",
+  "Groq (Llama 3 70B)",
+  "LiteLLM",
+  "Deepgram (Nova-2 STT)",
+  "Deepgram (Aura TTS)",
+  "HTML5",
+  "CSS3",
+  "Vanilla JavaScript",
+  "Web Audio API",
+  "WebSockets",
+  "Render",
+  "Python-dotenv",
+  "Git",
+  "GitHub"
+]
+,
+    link: "https://github.com/Rahul-64/Rude-AI",
+    github: "https://rude-ai.onrender.com/",
+  },
+  {
+    title: "CodeBox",
+    description:
+      "Engineered a full-stack gamified E-Learning platform using Next.js, React, and Neon Postgres, enabling secure user onboarding, course enrollment, and end-to-end progress tracking with a responsive, pixel-styled UI.",
+    image: "/codebox.png",
     tags: [
       "Next.js",
       "TypeScript",
@@ -16,36 +42,44 @@ const projects = [
       "Azure",
       "Clerk",
     ],
-    link: "https://github.com/Rahul-64/vidiora.ai",
-    github: "https://github.com/Rahul-64/vidiora.ai",
+    link: "https://code-box-three.vercel.app/",
+    github: "https://github.com/Rahul-64/CodeBox-main",
   },
   {
-    title: "Cinesphere",
+    title: "Docbot",
     description:
-      "CineSphere is a REST-based movie booking application using React on the frontend and Node.js with MySQL on the backend. It supports authentication, role-based access, and real-time booking workflows.",
-    image: "/movie-proj2.png",
-    tags: ["React.js", "Node.js", "MySQL", "Express.js"],
-    link: "https://github.com/Rahul-64/movie-ticket-reservation-main",
-    github: "https://github.com/Rahul-64/movie-ticket-reservation-main",
-  },
+      "A Retrieval-Augmented Generation (RAG) application that allows users to chat with their PDF documents. This project uses LangChain, FAISS for vector storage, and integrates HuggingFace and Groq LLMs to provide accurtae answers based on document context.",
+    image: "/docbot.png",
+    tags:[
+  "Python 3.10+",
+  "LangChain (Framework)",
+  "Streamlit (Frontend)",
+  "FAISS (Vector Database)",
+  "HuggingFace (Embeddings & LLM)"
+]
+,
+    link: "https://docbot-lsszbeatahcjmbhch6hxgx.streamlit.app/",
+    github: "https://github.com/Rahul-64/DocBot",
+  }
+  ,
   {
-    title: "Forever",
+    title: "InterviewPrep.AI",
     description:
-      "Forever is a MERN-based e-commerce platform with secure user authentication, efficient product management, and optimized image handling. It delivers a responsive and seamless shopping experience.",
-    image: "/Foreverproj1.png",
-    tags: ["React", "Javacript", "NodeJS", "MongoDB"],
-    link: "https://e-commerce-frontend-two-sand.vercel.app/",
-    github: "https://github.com/Rahul-64/E-commerce-master",
-  },
-  {
-    title: "Sorting Visualiser",
-    description:
-      "This sorting visualizer uses React and JavaScript to make sorting algorithms easier to understand. It shows real-time visual comparisons of algorithm operations.",
-    image: "/sortingproj3.png",
-    tags: ["React", "Javascript"],
-    link: "https://sorting-visualiser-master.vercel.app/",
-    github: "https://github.com/Rahul-64/Sorting-Visualiser-master",
-  },
+      "InterviewPrep.AI is a full-stack MERN application that helps users prepare for technical interviews with personalized, AI-generated questions and concept explanations — tailored to their role and experience.",
+    image: "/interview-prep.png",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "SaaS",
+      "AI",
+      "PostgreSQL",
+      "Neon",
+      "Azure",
+      "Clerk",
+    ],
+    link: "https://interviewprep-taupe-alpha.vercel.app/",
+    github: "https://github.com/Rahul-64/interview-prep-ai",
+  }
 ];
 
 export const Projects = () => {
